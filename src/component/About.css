@@ -1,0 +1,30 @@
+.about-section {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 60px; /* Adjust based on the fixed navbar height */
+}
+
+.about-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}

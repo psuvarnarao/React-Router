@@ -1,0 +1,75 @@
+/* src/components/Contact.css */
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+    margin-top: 60px; /* Adjust based on the fixed navbar height */
+}
+
+.contact-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #00d8ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0099cc;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666666;
+    margin: 5px 0;
+}
